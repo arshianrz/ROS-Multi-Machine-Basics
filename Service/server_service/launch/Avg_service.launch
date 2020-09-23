@@ -1,0 +1,11 @@
+<launch>
+    
+    <node pkg="server_service" name="server" type="server_service" output = "screen">
+</node>
+
+    <node pkg="client_service" name="client" type="client_service" output = "screen" >
+</node>
+
+</launch>
+
+<param name="calculate_srv" type="string" value="/claculate" />

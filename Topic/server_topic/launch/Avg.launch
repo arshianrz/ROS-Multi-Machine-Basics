@@ -1,0 +1,9 @@
+<launch>
+    
+    <node pkg="server_topic" name="server" type="server_topic" output = "screen">
+</node>
+
+    <node pkg="client_topic" name="client" type="client_topic" output = "screen" >
+</node>
+
+</launch>
